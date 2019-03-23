@@ -1,0 +1,8 @@
+    ../modulos/simulacao32.sv
+    ../modulos/simulacao64.sv
+    ../modulos/simulacaobancoderegistrador.sv
+    ../modulos/ramOnChip32.v
+    ../modulos/ramOnChip64.v
+    ../modulos/Memoria32.sv
+    ../modulos/Memoria64.sv
+    ../modulos/bancoReg.sv

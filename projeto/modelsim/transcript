@@ -1,0 +1,704 @@
+# Loading project projeto
+do run32
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:19 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# ** Error: (vlog-13069) ../modulos/simulacao32.sv(43): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) ../modulos/simulacao32.sv(54): near "else": syntax error, unexpected else.
+# ** Error: ../modulos/simulacao32.sv(57): (vlog-13205) Syntax error found in the scope following 'data'. Is there a missing '::'?
+# -- Compiling module simulacao64
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# End time: 11:52:19 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /home/lucascambuim/intelFPGA/17.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run32 line 4
+# /home/lucascambuim/intelFPGA/17.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f compile_verilog"
+do run32
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:37 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# ** Error: (vlog-13069) ../modulos/simulacao32.sv(42): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) ../modulos/simulacao32.sv(53): near "else": syntax error, unexpected else.
+# ** Error: ../modulos/simulacao32.sv(56): (vlog-13205) Syntax error found in the scope following 'data'. Is there a missing '::'?
+# -- Compiling module simulacao64
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# End time: 11:52:37 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /home/lucascambuim/intelFPGA/17.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run32 line 4
+# /home/lucascambuim/intelFPGA/17.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f compile_verilog"
+do run32
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:52:59 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	bancoReg
+# End time: 11:52:59 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacao32 
+# Start time: 11:52:59 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacao32
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+do run32
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:17 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	bancoReg
+# End time: 11:54:17 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:54:18 on Oct 05,2018, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacao32 
+# Start time: 11:54:18 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacao32
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# ** Note: $stop    : ../modulos/simulacao32.sv(76)
+#    Time: 360 ns  Iteration: 1  Instance: /simulacao32
+# Break in Module simulacao32 at ../modulos/simulacao32.sv line 76
+do run64
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:56:35 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# ** Warning: ../modulos/simulacao64.sv(3): (vlog-2275) 'simulacao32' already exists and will be overwritten.
+# -- Compiling module simulacao32
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	bancoReg
+# End time: 11:56:35 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 11:56:36 on Oct 05,2018, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 1
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacao32 
+# Start time: 11:56:36 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacao32
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error: (vish-4014) No objects found matching '/simulacao64/CLKPERIOD'.
+# Error in macro ./run64 line 7
+# (vish-4014) No objects found matching '/simulacao64/CLKPERIOD'.
+#     while executing
+# "add wave -position end  sim:/simulacao64/CLKPERIOD"
+do run64
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:56:47 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# ** Warning: ../modulos/simulacao64.sv(3): (vlog-2275) 'simulacao32' already exists and will be overwritten.
+# -- Compiling module simulacao32
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	bancoReg
+# End time: 11:56:47 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 11:56:48 on Oct 05,2018, Elapsed time: 0:00:12
+# Errors: 3, Warnings: 1
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacao64 
+# Start time: 11:56:48 on Oct 05,2018
+# ** Error: (vsim-3170) Could not find 'simulacao64'.
+#         Searched libraries:
+#             /home/lucascambuim/intelFPGA/17.1/modelsim_ase/altera/verilog/altera_mf
+#             /home/lucascambuim/intelFPGA/17.1/modelsim_ase/altera/verilog/220model
+#             /home/lucascambuim/intelFPGA/17.1/modelsim_ase/altera/verilog/sgate
+#             /home/lucascambuim/intelFPGA/17.1/modelsim_ase/altera/verilog/altera
+#             /home/lucascambuim/Dropbox/doutorado/estagiodocencia/projeto/modelsim/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run64 PAUSED at line 5
+do run64
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:57:19 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	bancoReg
+# End time: 11:57:19 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacao64 
+# Start time: 11:56:48 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacao64
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao64.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao64.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao64.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao64.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao64.meminst.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao64.meminst.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao64.meminst.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao64.meminst.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# ** Note: $stop    : ../modulos/simulacao64.sv(76)
+#    Time: 200 ns  Iteration: 1  Instance: /simulacao64
+# Break in Module simulacao64 at ../modulos/simulacao64.sv line 76
+do runmemoria32
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:12 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	bancoReg
+# End time: 12:01:12 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:01:14 on Oct 05,2018, Elapsed time: 0:04:26
+# Errors: 1, Warnings: 0
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacao32 
+# Start time: 12:01:14 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacao32
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.meminst.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.meminst.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.meminst.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.meminst.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# ** Note: $stop    : ../modulos/simulacao32.sv(76)
+#    Time: 360 ns  Iteration: 1  Instance: /simulacao32
+# Break in Module simulacao32 at ../modulos/simulacao32.sv line 76
+do runbancoderegistrador
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:21:49 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module simulacaobancoderegistrador
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulacaobancoderegistrador
+# End time: 12:21:49 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:21:51 on Oct 05,2018, Elapsed time: 0:20:37
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacaobancoderegistrador 
+# Start time: 12:21:51 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacaobancoderegistrador
+# Loading work.bancoReg
+# ** Warning: (vsim-3015) ../modulos/simulacaobancoderegistrador.sv(20): [PCDPC] - Port size (32) does not match connection size (64) for port 'datein'. The port definition is at: ../modulos/bancoReg.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /simulacaobancoderegistrador/reginst File: ../modulos/bancoReg.sv
+# ** Warning: (vsim-3015) ../modulos/simulacaobancoderegistrador.sv(20): [PCDPC] - Port size (32) does not match connection size (64) for port 'dateout1'. The port definition is at: ../modulos/bancoReg.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /simulacaobancoderegistrador/reginst File: ../modulos/bancoReg.sv
+# ** Warning: (vsim-3015) ../modulos/simulacaobancoderegistrador.sv(20): [PCDPC] - Port size (32) does not match connection size (64) for port 'dateout2'. The port definition is at: ../modulos/bancoReg.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /simulacaobancoderegistrador/reginst File: ../modulos/bancoReg.sv
+# ** Error: (vish-4014) No objects found matching '/simulacao32/CLKPERIOD'.
+# Error in macro ./runbancoderegistrador line 7
+# (vish-4014) No objects found matching '/simulacao32/CLKPERIOD'.
+#     while executing
+# "add wave -position end  sim:/simulacao32/CLKPERIOD"
+do runbancoderegistrador
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:22:24 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module simulacaobancoderegistrador
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulacaobancoderegistrador
+# End time: 12:22:24 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:22:25 on Oct 05,2018, Elapsed time: 0:00:34
+# Errors: 3, Warnings: 3
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacaobancoderegistrador 
+# Start time: 12:22:25 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacaobancoderegistrador
+# Loading work.bancoReg
+# ** Warning: (vsim-3015) ../modulos/simulacaobancoderegistrador.sv(20): [PCDPC] - Port size (32) does not match connection size (64) for port 'datein'. The port definition is at: ../modulos/bancoReg.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /simulacaobancoderegistrador/reginst File: ../modulos/bancoReg.sv
+# ** Warning: (vsim-3015) ../modulos/simulacaobancoderegistrador.sv(20): [PCDPC] - Port size (32) does not match connection size (64) for port 'dateout1'. The port definition is at: ../modulos/bancoReg.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /simulacaobancoderegistrador/reginst File: ../modulos/bancoReg.sv
+# ** Warning: (vsim-3015) ../modulos/simulacaobancoderegistrador.sv(20): [PCDPC] - Port size (32) does not match connection size (64) for port 'dateout2'. The port definition is at: ../modulos/bancoReg.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /simulacaobancoderegistrador/reginst File: ../modulos/bancoReg.sv
+# ** Error: (vish-4014) No objects found matching '/simulacaobancoderegistrador/nrst'.
+# Error in macro ./runbancoderegistrador line 11
+# (vish-4014) No objects found matching '/simulacaobancoderegistrador/nrst'.
+#     while executing
+# "add wave -position end  sim:/simulacaobancoderegistrador/nrst"
+do runbancoderegistrador
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:22:42 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module simulacaobancoderegistrador
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulacaobancoderegistrador
+# End time: 12:22:42 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:22:44 on Oct 05,2018, Elapsed time: 0:00:19
+# Errors: 3, Warnings: 3
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacaobancoderegistrador 
+# Start time: 12:22:44 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacaobancoderegistrador
+# Loading work.bancoReg
+# ** Warning: (vsim-3015) ../modulos/simulacaobancoderegistrador.sv(20): [PCDPC] - Port size (32) does not match connection size (64) for port 'datein'. The port definition is at: ../modulos/bancoReg.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /simulacaobancoderegistrador/reginst File: ../modulos/bancoReg.sv
+# ** Warning: (vsim-3015) ../modulos/simulacaobancoderegistrador.sv(20): [PCDPC] - Port size (32) does not match connection size (64) for port 'dateout1'. The port definition is at: ../modulos/bancoReg.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /simulacaobancoderegistrador/reginst File: ../modulos/bancoReg.sv
+# ** Warning: (vsim-3015) ../modulos/simulacaobancoderegistrador.sv(20): [PCDPC] - Port size (32) does not match connection size (64) for port 'dateout2'. The port definition is at: ../modulos/bancoReg.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /simulacaobancoderegistrador/reginst File: ../modulos/bancoReg.sv
+# ** Error: (vish-4014) No objects found matching '/simulacaobancoderegistrador/q'.
+# Error in macro ./runbancoderegistrador line 17
+# (vish-4014) No objects found matching '/simulacaobancoderegistrador/q'.
+#     while executing
+# "add wave -position end  sim:/simulacaobancoderegistrador/q"
+do runbancoderegistrador
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:23:00 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module simulacaobancoderegistrador
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulacaobancoderegistrador
+# End time: 12:23:00 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:23:02 on Oct 05,2018, Elapsed time: 0:00:18
+# Errors: 3, Warnings: 3
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacaobancoderegistrador 
+# Start time: 12:23:02 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacaobancoderegistrador
+# Loading work.bancoReg
+# ** Warning: (vsim-3015) ../modulos/simulacaobancoderegistrador.sv(20): [PCDPC] - Port size (32) does not match connection size (64) for port 'datein'. The port definition is at: ../modulos/bancoReg.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /simulacaobancoderegistrador/reginst File: ../modulos/bancoReg.sv
+# ** Warning: (vsim-3015) ../modulos/simulacaobancoderegistrador.sv(20): [PCDPC] - Port size (32) does not match connection size (64) for port 'dateout1'. The port definition is at: ../modulos/bancoReg.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /simulacaobancoderegistrador/reginst File: ../modulos/bancoReg.sv
+# ** Warning: (vsim-3015) ../modulos/simulacaobancoderegistrador.sv(20): [PCDPC] - Port size (32) does not match connection size (64) for port 'dateout2'. The port definition is at: ../modulos/bancoReg.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /simulacaobancoderegistrador/reginst File: ../modulos/bancoReg.sv
+do runbancoderegistrador
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:24:45 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module simulacaobancoderegistrador
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulacaobancoderegistrador
+# End time: 12:24:45 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:24:48 on Oct 05,2018, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 3
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacaobancoderegistrador 
+# Start time: 12:24:48 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacaobancoderegistrador
+# Loading work.bancoReg
+do runbancoderegistrador
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:26:15 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module simulacaobancoderegistrador
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulacaobancoderegistrador
+# End time: 12:26:15 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:26:16 on Oct 05,2018, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacaobancoderegistrador 
+# Start time: 12:26:16 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacaobancoderegistrador
+# Loading work.bancoReg
+add wave -position 11  sim:/simulacaobancoderegistrador/fimdaescrita
+do runbancoderegistrador
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:27:52 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module simulacaobancoderegistrador
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulacaobancoderegistrador
+# End time: 12:27:52 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:27:53 on Oct 05,2018, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacaobancoderegistrador 
+# Start time: 12:27:53 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacaobancoderegistrador
+# Loading work.bancoReg
+do runbancoderegistrador
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:00 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module simulacaobancoderegistrador
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulacaobancoderegistrador
+# End time: 12:30:01 on Oct 05,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:30:03 on Oct 05,2018, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacaobancoderegistrador 
+# Start time: 12:30:03 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacaobancoderegistrador
+# Loading work.bancoReg
+do runbancoderegistrador
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:31:16 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module simulacaobancoderegistrador
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulacaobancoderegistrador
+# End time: 12:31:16 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:31:18 on Oct 05,2018, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacaobancoderegistrador 
+# Start time: 12:31:18 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacaobancoderegistrador
+# Loading work.bancoReg
+# ** Note: $stop    : ../modulos/simulacaobancoderegistrador.sv(94)
+#    Time: 660 ns  Iteration: 1  Instance: /simulacaobancoderegistrador
+# Break in Module simulacaobancoderegistrador at ../modulos/simulacaobancoderegistrador.sv line 94
+do runbancoderegistrador
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:33:00 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module simulacaobancoderegistrador
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulacaobancoderegistrador
+# End time: 12:33:00 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:33:06 on Oct 05,2018, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacaobancoderegistrador 
+# Start time: 12:33:06 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacaobancoderegistrador
+# Loading work.bancoReg
+# ** Note: $stop    : ../modulos/simulacaobancoderegistrador.sv(94)
+#    Time: 660 ns  Iteration: 1  Instance: /simulacaobancoderegistrador
+# Break in Module simulacaobancoderegistrador at ../modulos/simulacaobancoderegistrador.sv line 94
+do runbancoderegistrador
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:34:31 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module simulacaobancoderegistrador
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulacaobancoderegistrador
+# End time: 12:34:31 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:34:34 on Oct 05,2018, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacaobancoderegistrador 
+# Start time: 12:34:34 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacaobancoderegistrador
+# Loading work.bancoReg
+# ** Note: $stop    : ../modulos/simulacaobancoderegistrador.sv(94)
+#    Time: 660 ns  Iteration: 1  Instance: /simulacaobancoderegistrador
+# Break in Module simulacaobancoderegistrador at ../modulos/simulacaobancoderegistrador.sv line 94
+do runbancoderegistrador
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:02 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module simulacaobancoderegistrador
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulacaobancoderegistrador
+# End time: 12:37:02 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:37:05 on Oct 05,2018, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacaobancoderegistrador 
+# Start time: 12:37:05 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacaobancoderegistrador
+# Loading work.bancoReg
+# ** Note: $stop    : ../modulos/simulacaobancoderegistrador.sv(94)
+#    Time: 660 ns  Iteration: 1  Instance: /simulacaobancoderegistrador
+# Break in Module simulacaobancoderegistrador at ../modulos/simulacaobancoderegistrador.sv line 94
+do runbancoderegistrador
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:52 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# -- Compiling module simulacao32
+# -- Compiling module simulacao64
+# -- Compiling module simulacaobancoderegistrador
+# -- Compiling module ramOnChip32
+# -- Compiling module ramOnChip64
+# -- Compiling module Memoria32
+# -- Compiling module Memoria64
+# -- Compiling module bancoReg
+# 
+# Top level modules:
+# 	simulacao32
+# 	simulacao64
+# 	simulacaobancoderegistrador
+# End time: 12:37:52 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:37:55 on Oct 05,2018, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacaobancoderegistrador 
+# Start time: 12:37:55 on Oct 05,2018
+# Loading sv_std.std
+# Loading work.simulacaobancoderegistrador
+# Loading work.bancoReg
+# ** Note: $stop    : ../modulos/simulacaobancoderegistrador.sv(94)
+#    Time: 660 ns  Iteration: 1  Instance: /simulacaobancoderegistrador
+# Break in Module simulacaobancoderegistrador at ../modulos/simulacaobancoderegistrador.sv line 94
+do runmemoria32
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:43:06 on Oct 05,2018
+# vlog -reportprogress 300 -f compile_verilog 
+# ** Error: (vlog-7) Failed to open design unit file "../modulos/*.*.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 12:43:06 on Oct 05,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/lucascambuim/intelFPGA/17.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./runmemoria32 line 4
+# /home/lucascambuim/intelFPGA/17.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f compile_verilog"

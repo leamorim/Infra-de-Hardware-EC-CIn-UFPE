@@ -1,0 +1,20 @@
+vlib work
+vdel -all -lib work
+vlib work
+vlog -f compile_verilog
+vsim -L altera_mf_ver -L lpm_ver -L sgate_ver -L altera_ver -novopt work.simulacao64
+
+add wave -position end  sim:/simulacao64/CLKPERIOD
+add wave -position end  sim:/simulacao64/CLKDELAY
+add wave -position end  sim:/simulacao64/ramSize
+add wave -position end  sim:/simulacao64/clk
+add wave -position end  sim:/simulacao64/nrst
+add wave -position end  sim:/simulacao64/rdaddress
+add wave -position end  sim:/simulacao64/wdaddress
+add wave -position end  sim:/simulacao64/data
+add wave -position end  sim:/simulacao64/Wr
+add wave -position end  sim:/simulacao64/q
+
+run -all
+
+
