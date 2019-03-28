@@ -4,3 +4,5 @@ Este repositório contém os módulos cedidos pela monitoria de Infra de Hardwar
 Incluindo o montador de instruções para geração dos arquivos mif utilizados nas memórias e módulos como a memória e ALU.
 
 Para mais informações leia os README's disponíveis em cada pasta do projeto.
+
+Caso seja encontrado algum erro, favor, abrir uma issue aqui no github.
