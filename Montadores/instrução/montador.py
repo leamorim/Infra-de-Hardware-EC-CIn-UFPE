@@ -392,3 +392,4 @@ toWrite.append('END;')
 arq2.writelines(toWrite)		
 arq.close()
 arq2.close()
+

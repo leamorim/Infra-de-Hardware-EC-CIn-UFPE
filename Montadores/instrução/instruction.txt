@@ -1,5 +1,0 @@
-add x9,x20,x21
-beq x2,x3,2321
-beq x9,x3,13
-ld x9,23(x10)
-jal x7,2000
