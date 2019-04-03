@@ -169,6 +169,28 @@ for x in arrayInst:
 		decod+=get_bin(rd,5)
 		decod+='0000011'
 
+	if(inst[0] == "lhu"):
+		rs1= int(inst[1].split(",")[1].split("(x")[1].split(")")[0])
+		rd = int(inst[1].split(",")[0].split("x")[1])
+		imm= int(inst[1].split(",")[1].split("(")[0])
+
+		decod+=get_bin(imm,12)
+		decod+=get_bin(rs1,5)
+		decod+='101'
+		decod+=get_bin(rd,5)
+		decod+='0000011'
+	
+		if(inst[0] == "lwu"):
+		rs1= int(inst[1].split(",")[1].split("(x")[1].split(")")[0])
+		rd = int(inst[1].split(",")[0].split("x")[1])
+		imm= int(inst[1].split(",")[1].split("(")[0])
+
+		decod+=get_bin(imm,12)
+		decod+=get_bin(rs1,5)
+		decod+='110'
+		decod+=get_bin(rd,5)
+		decod+='0000011'
+
 	if(inst[0] == "lh"):
 		rs1= int(inst[1].split(",")[1].split("(x")[1].split(")")[0])
 		rd = int(inst[1].split(",")[0].split("x")[1])
@@ -267,6 +289,7 @@ for x in arrayInst:
 		rs1 = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[2])
 
+		
 		imm1 = get_bin(imm,12)[0]
 		imm2 = get_bin(imm,12)[2:8]
 		imm3 = get_bin(imm,12)[8:12]
@@ -283,7 +306,8 @@ for x in arrayInst:
 		rs2= int(inst[1].split(",")[1].split("x")[1])
 		rs1 = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[2])
-
+		
+	
 		imm1 = get_bin(imm,12)[0]
 		imm2 = get_bin(imm,12)[2:8]
 		imm3 = get_bin(imm,12)[8:12]
