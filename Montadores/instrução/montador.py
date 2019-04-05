@@ -329,7 +329,7 @@ for x in arrayInst:
 		decod+=get_bin(rs1,5)
 		decod+='001'
 		decod+=imm3+imm4
-		decod+='1100011'
+		decod+='1100111'
 
 	if(inst[0] == "blt"):
 		rs2= int(inst[1].split(",")[1].split("x")[1])
@@ -346,7 +346,7 @@ for x in arrayInst:
 		decod+=get_bin(rs1,5)
 		decod+='100'
 		decod+=imm3+imm4
-		decod+='1100011'
+		decod+='1100111'
 
 	if(inst[0] == "bge"):
 		rs2= int(inst[1].split(",")[1].split("x")[1])
@@ -363,7 +363,7 @@ for x in arrayInst:
 		decod+=get_bin(rs1,5)
 		decod+='101'
 		decod+=imm3+imm4
-		decod+='1100011'
+		decod+='1100111'
 
 	#UJ-Type
 
