@@ -1,3 +1,4 @@
+from numpy import binary_repr
 arq = open('instructions.txt', 'r')
 arq2 = open('instructions.mif', 'w')
 
@@ -72,7 +73,7 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[2])
 
-		decod= decod + get_bin(imm,12)
+		decod= decod + binary_repr(imm,12)
 		decod+=get_bin(rs1,5)
 		decod+='000'
 		decod+=get_bin(rd,5)
@@ -119,7 +120,7 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[2])
 
-		decod+=get_bin(imm,12)
+		decod+=binary_repr(imm,12)
 		decod+=get_bin(rs1,5)
 		decod+='010'
 		decod+=get_bin(rd,5)
@@ -130,7 +131,7 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[2])
 
-		decod+=get_bin(imm,12)
+		decod+=binary_repr(imm,12)
 		decod+=get_bin(rs1,5)
 		decod+='000'
 		decod+=get_bin(rd,5)
@@ -141,7 +142,7 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[1].split("(")[0])
 
-		decod+=get_bin(imm,12)
+		decod+=binary_repr(imm,12)
 		decod+=get_bin(rs1,5)
 		decod+='011'
 		decod+=get_bin(rd,5)
@@ -152,7 +153,7 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[1].split("(")[0])
 
-		decod+=get_bin(imm,12)
+		decod+=binary_repr(imm,12)
 		decod+=get_bin(rs1,5)
 		decod+='010'
 		decod+=get_bin(rd,5)
@@ -163,7 +164,7 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[1].split("(")[0])
 
-		decod+=get_bin(imm,12)
+		decod+=binary_repr(imm,12)
 		decod+=get_bin(rs1,5)
 		decod+='100'
 		decod+=get_bin(rd,5)
@@ -174,7 +175,7 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[1].split("(")[0])
 
-		decod+=get_bin(imm,12)
+		decod+=binary_repr(imm,12)
 		decod+=get_bin(rs1,5)
 		decod+='101'
 		decod+=get_bin(rd,5)
@@ -185,7 +186,7 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[1].split("(")[0])
 
-		decod+=get_bin(imm,12)
+		decod+=binary_repr(imm,12)
 		decod+=get_bin(rs1,5)
 		decod+='110'
 		decod+=get_bin(rd,5)
@@ -196,7 +197,7 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[1].split("(")[0])
 
-		decod+=get_bin(imm,12)
+		decod+=binary_repr(imm,12)
 		decod+=get_bin(rs1,5)
 		decod+='001'
 		decod+=get_bin(rd,5)
@@ -207,7 +208,7 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[1].split("(")[0])
 
-		decod+=get_bin(imm,12)
+		decod+=binary_repr(imm,12)
 		decod+=get_bin(rs1,5)
 		decod+='000'
 		decod+=get_bin(rd,5)
@@ -235,9 +236,8 @@ for x in arrayInst:
 		rs2= int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[1].split("(")[0])
 
-		imm1= get_bin(imm,12)[0:7]
-		imm2 = get_bin(imm,12)[7:12]
-
+		imm1 = binary_repr(imm,12)[0:7]
+		imm2 = binary_repr(imm,12)[7:12]
 
 		decod+=imm1
 		decod+=get_bin(rs2,5)
@@ -251,8 +251,8 @@ for x in arrayInst:
 		rs2= int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[1].split("(")[0])
 
-		imm1= get_bin(imm,12)[0:7]
-		imm2 = get_bin(imm,12)[7:12]
+		imm1= binary_repr(imm,12)[0:7]
+		imm2 = binary_repr(imm,12)[7:12]
 
 
 		decod+=imm1
@@ -267,8 +267,8 @@ for x in arrayInst:
 		rs2= int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[1].split("(")[0])
 
-		imm1= get_bin(imm,12)[0:7]
-		imm2 = get_bin(imm,12)[7:12]
+		imm1= binary_repr(imm,12)[0:7]
+		imm2 = binary_repr(imm,12)[7:12]
 
 
 		decod+=imm1
@@ -283,8 +283,8 @@ for x in arrayInst:
 		rs2= int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[1].split("(")[0])
 
-		imm1= get_bin(imm,12)[0:7]
-		imm2 = get_bin(imm,12)[7:12]
+		imm1= binary_repr(imm,12)[0:7]
+		imm2 = binary_repr(imm,12)[7:12]
 
 
 		decod+=imm1
@@ -301,10 +301,10 @@ for x in arrayInst:
 		imm= int(inst[1].split(",")[2])
 
 		
-		imm1 = get_bin(imm,12)[0]
-		imm2 = get_bin(imm,12)[2:8]
-		imm3 = get_bin(imm,12)[8:12]
-		imm4 = get_bin(imm,12)[1]
+		imm1 = binary_repr(imm,12)[0]
+		imm2 = binary_repr(imm,12)[2:8]
+		imm3 = binary_repr(imm,12)[8:12]
+		imm4 = binary_repr(imm,12)[1]
 
 		decod+=imm1+imm2
 		decod+=get_bin(rs2,5)
@@ -319,10 +319,10 @@ for x in arrayInst:
 		imm= int(inst[1].split(",")[2])
 		
 	
-		imm1 = get_bin(imm,12)[0]
-		imm2 = get_bin(imm,12)[2:8]
-		imm3 = get_bin(imm,12)[8:12]
-		imm4 = get_bin(imm,12)[1]
+		imm1 = binary_repr(imm,12)[0]
+		imm2 = binary_repr(imm,12)[2:8]
+		imm3 = binary_repr(imm,12)[8:12]
+		imm4 = binary_repr(imm,12)[1]
 
 		decod+=imm1+imm2
 		decod+=get_bin(rs2,5)
@@ -336,10 +336,10 @@ for x in arrayInst:
 		rs1 = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[2])
 
-		imm1 = get_bin(imm,12)[0]
-		imm2 = get_bin(imm,12)[2:8]
-		imm3 = get_bin(imm,12)[8:12]
-		imm4 = get_bin(imm,12)[1]
+		imm1 = binary_repr(imm,12)[0]
+		imm2 = binary_repr(imm,12)[2:8]
+		imm3 = binary_repr(imm,12)[8:12]
+		imm4 = binary_repr(imm,12)[1]
 
 		decod+=imm1+imm2
 		decod+=get_bin(rs2,5)
@@ -353,10 +353,10 @@ for x in arrayInst:
 		rs1 = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[2])
 
-		imm1 = get_bin(imm,12)[0]
-		imm2 = get_bin(imm,12)[2:8]
-		imm3 = get_bin(imm,12)[8:12]
-		imm4 = get_bin(imm,12)[1]
+		imm1 = binary_repr(imm,12)[0]
+		imm2 = binary_repr(imm,12)[2:8]
+		imm3 = binary_repr(imm,12)[8:12]
+		imm4 = binary_repr(imm,12)[1]
 
 		decod+=imm1+imm2
 		decod+=get_bin(rs2,5)
@@ -371,10 +371,10 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[1])
 
-		imm1 = get_bin(imm,20)[0]
-		imm2 = get_bin(imm,20)[1:9]
-		imm3 = get_bin(imm,20)[10]
-		imm4 = get_bin(imm,20)[10:20]
+		imm1 = binary_repr(imm,20)[0]
+		imm2 = binary_repr(imm,20)[1:9]
+		imm3 = binary_repr(imm,20)[10]
+		imm4 = binary_repr(imm,20)[10:20]
 
 
 		decod+=imm1+imm4+imm3+imm2
@@ -387,7 +387,7 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[1])
 
-		decod+=get_bin(imm,20)
+		decod+=binary_repr(imm,20)
 		decod+=get_bin(rd,5)
 		decod+='0110111'
 
