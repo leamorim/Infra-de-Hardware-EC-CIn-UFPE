@@ -6,7 +6,7 @@ O arquivo montador.py contém o código em Python para o montador e que necessit
 
 A pasta Montador_Executável.zip contém um arquivo executável, feito a partir do código em Pyhton, que não necessita do Python instalado na máquina para funcionar, basta apenas seguir as mesmas regras explicadas no slide para gerar um .mif corretamente.
 
-### O arquivo executável está temporariamente indisponível
+### O arquivo executável está disponível novamente, mas atenção ao grande tamanho dele
 
 Reviews:
 
