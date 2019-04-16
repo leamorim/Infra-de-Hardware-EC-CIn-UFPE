@@ -1,4 +1,7 @@
-from numpy import binary_repr
+def binary_repr(n, bits):
+    s = bin(n & int("1" * bits, 2))[2:]
+    return ("{0:0>%s}" % (bits)).format(s)
+
 arq = open('instructions.txt', 'r')
 arq2 = open('instructions.mif', 'w')
 
