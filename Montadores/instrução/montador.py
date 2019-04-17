@@ -277,7 +277,7 @@ for x in arrayInst:
 		decod+=imm1
 		decod+=get_bin(rs2,5)
 		decod+=get_bin(rs1,5)
-		decod+='000'
+		decod+='001'
 		decod+=imm2
 		decod+='0100011'
 
@@ -293,7 +293,7 @@ for x in arrayInst:
 		decod+=imm1
 		decod+=get_bin(rs2,5)
 		decod+=get_bin(rs1,5)
-		decod+='010'
+		decod+='000'
 		decod+=imm2
 		decod+='0100011'
 
