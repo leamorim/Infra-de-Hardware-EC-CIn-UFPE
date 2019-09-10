@@ -24,14 +24,15 @@
 ------------------------------------------------------------------------------*/
 
 module Memoria32 
-    (input  wire  [31:0]raddress,
-     input  wire  [31:0]waddress,
+    (input  wire  [63:0]raddress,
+     input  wire  [63:0]waddress,
      input  wire  Clk,         
      input  wire  [31:0]Datain,
      output wire  [31:0]Dataout,
      input  wire  Wr
     );
     
+
     wire [15:0]readUsefullAddress = raddress[15:0]; 
     
     wire [15:0]addS0 = readUsefullAddress + 0;
