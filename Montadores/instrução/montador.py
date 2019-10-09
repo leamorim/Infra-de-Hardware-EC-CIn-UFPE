@@ -87,8 +87,8 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[2])
 
-		decod+='0000000'
-		decod+=get_bin(imm,5)
+		decod+='000000'
+		decod+=get_bin(imm,6)
 		decod+=get_bin(rs1,5)
 		decod+='101'
 		decod+=get_bin(rd,5)
@@ -99,8 +99,8 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[2])
 
-		decod+='0100000'
-		decod+=get_bin(imm,5)
+		decod+='010000'
+		decod+=get_bin(imm,6)
 		decod+=get_bin(rs1,5)
 		decod+='101'
 		decod+=get_bin(rd,5)
@@ -111,8 +111,8 @@ for x in arrayInst:
 		rd = int(inst[1].split(",")[0].split("x")[1])
 		imm= int(inst[1].split(",")[2])
 
-		decod+='0000000'
-		decod+=get_bin(imm,5)
+		decod+='000000'
+		decod+=get_bin(imm,6)
 		decod+=get_bin(rs1,5)
 		decod+='001'
 		decod+=get_bin(rd,5)
