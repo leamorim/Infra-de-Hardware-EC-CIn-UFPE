@@ -69,6 +69,31 @@ for x in arrayInst:
 		decod+='010'
 		decod+=get_bin(rd,5)
 		decod+='0110011'
+        
+    #Mul instructions:
+	if(inst[0] == "mul"):
+		rs1= int(inst[1].split(",")[1].split("x")[1])
+		rd = int(inst[1].split(",")[0].split("x")[1])
+		rs2= int(inst[1].split(",")[2].split("x")[1])
+
+		decod+= '0000001'
+		decod+=get_bin(rs2,5)
+		decod+=get_bin(rs1,5)
+		decod+='000'
+		decod+=get_bin(rd,5)
+		decod+='0110011'    
+
+	if(inst[0] == "mulh"):
+		rs1= int(inst[1].split(",")[1].split("x")[1])
+		rd = int(inst[1].split(",")[0].split("x")[1])
+		rs2= int(inst[1].split(",")[2].split("x")[1])
+
+		decod+= '0000001'
+		decod+=get_bin(rs2,5)
+		decod+=get_bin(rs1,5)
+		decod+='001'
+		decod+=get_bin(rd,5)
+		decod+='0110011' 
 
 	#I-type
 	if(inst[0] == "addi"):

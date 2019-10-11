@@ -1,3 +1,2 @@
-srai x5,x4,60
-srli x5,x4,61
-slli x5,x4,62
+mul x5,x4,x7
+mulh x5,x4,x8
